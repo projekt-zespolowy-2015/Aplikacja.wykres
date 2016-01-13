@@ -1,5 +1,22 @@
-w pliku TestMenu należy uaktualnić:
+w pliku TestMenu należy :
 
+  przed:
+      ```js
+      pasekMenu.add(menuPomocy);
+      ```
+
+
+
+      
+ dodać linijke aby wyswietlac pomoc po prawej stronie:
+```js
+       pasekMenu.add(Box.createHorizontalGlue());
+```
+
+
+
+
+oraz uaktualnić *przeczytaj*
 ```js
    menuPomocy.add(new DzialanieTestowe("Przeczytaj")
       {
@@ -29,19 +46,8 @@ w pliku TestMenu należy uaktualnić:
                  });
          }
       });
-      
-      ```
-      
-      
-      oraz przed:
-      ```js
-      pasekMenu.add(menuPomocy);
-      ```
-      
-      dodać linijke aby wyswietlac pomoc po prawej stronie:
-      ```js
-       pasekMenu.add(Box.createHorizontalGlue());
-       ```
+```
+
       
       
    
